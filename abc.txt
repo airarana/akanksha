@@ -1,0 +1,3 @@
+this is android studio project
+type
+color
