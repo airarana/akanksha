@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+     android:layout_marginTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/scrollView">
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+ <Switch
+     android:id="@+id/switch1"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="Switch"/>
+
+
+    <CheckBox android:id="@+id/checkbox_meat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meat"
+        android:onClick="onCheckboxClicked"/>
+    <CheckBox android:id="@+id/checkbox_cheese"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cheese"
+        android:onClick="onCheckboxClicked"/>
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onCheckboxClicked"
+        android:text="Arushi"/>
+
+    <RadioButton
+        android:id="@+id/radio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onRadioButtonClicked"
+        android:text="Akshat"
+        tools:ignore="OnCheck"/>
+    <ToggleButton
+        android:id="@+id/togglebutton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="Off"
+        android:textOn="On"/>
+
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ToggleButton"
+        android:textOff="ON"
+        android:textOn="OFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView android:text="Button"
+        
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+android:onClick="onClick"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:id="@+id/imageButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/xyz"/>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:text="Submit"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        android:textStyle="bold"/>
+
+
+
+    <ImageView
+        android:id="@+id/abcImageViewabc"
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/abc" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vertical ScrollView example"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentTop="true" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="40dp"
+            android:text="A"
+            android:textColor="@color/purple_500"
+            android:id="@+id/text1"
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="40dp"
+            android:text="K"
+            android:id="@+id/text2"
+            android:textColor="@color/purple_500"
+
+            android:textSize="30dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:height="40dp"
+            android:text="A"
+            android:id="@+id/text3"
+            android:textColor="@color/purple_500"
+            android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="N"
+                android:id="@+id/text4"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="K"
+                android:id="@+id/text5"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="S"
+                android:id="@+id/text6"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="H"
+                android:id="@+id/text7"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="A"
+                android:id="@+id/text8"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="bdnmfsmnkjsbmnfsjrndnndmhfngfmhrihjdskfnfsnbjssjdskfdsbn"
+                android:id="@+id/text9"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="R"
+                android:id="@+id/text10"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="A"
+                android:id="@+id/text12"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="N"
+                android:id="@+id/text13"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:height="40dp"
+                android:text="Abchrdcjkbnbjnmmhjhjbnfggjjhjsjjbbhgfdvbvbffffhdbvvbnhgjjbnhfhvbnnnbmnfghgvhv"
+                android:textColor="@color/purple_500"
+                android:textSize="30dp"/>
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
